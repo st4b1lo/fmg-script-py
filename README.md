@@ -10,4 +10,4 @@ If you need to modify the script to extract something else, like ip address in y
 Like to the api before, you can adact the script to your need, you just need to change the line "91" and the process output in line 130.
 
 
-These scripts do not have any type of credentials saved within them that refers to the device in question, nor do they use linked password managers; each time they are executed, IP, USER and PW are requested, so they are practically plug and play.
+These ask each time they are executed, IP, USER and PW are requested, so they are practically plug and play.
