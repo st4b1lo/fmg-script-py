@@ -11,3 +11,7 @@ Like to the api before, you can adact the script to your need, you just need to 
 
 
 These script ask each time they are executed, IP, USER and PW are requested, so they are practically plug and play.
+
+
+I hope these scripts are useful for those who use such devices:)
+
