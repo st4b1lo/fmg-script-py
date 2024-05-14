@@ -10,7 +10,7 @@ If you need to modify the script to extract something else, like ip address in y
 Like to the api before, you can adact the script to your need, you just need to change the line "91" and the process output in line 130.
 
 
-These script ask each time they are executed, IP, USER and PW are requested, so they are practically plug and play.
+These script ask each time they are executed: IP, USER and PW, so they are practically plug and play and dosent require a password manager.
 
 
 I hope these scripts are useful for those who use such devices:)
