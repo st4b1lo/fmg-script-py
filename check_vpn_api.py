@@ -11,11 +11,12 @@ from getpass import getpass
 # disable https warnings
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+host = input("FMG IP: ")
+user = input("username: ")
+secret = getpass.getpass("password: ")
+port = 22
 
-ssh = paramiko.SSHClient()
-ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect(hostname=host, username=user, password=secret, port=port)
-
+# Establish SSH connection
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect(hostname=host, username=user, password=secret, port=port)
