@@ -1,5 +1,5 @@
 I created these two scripts as a starting point for those who need to extract config info from multiple Fortigate firewall connected to Fortimanager devices. 
-The scripts in question act in a different way:
+The scripts in question act in a two different way:
 
 
 "check_vpn_api.py" one uses as a method to get the API requests which are sent directly from the fortimanager to the fortigates, in this way you have a real-time overview of what is present in the device, this is useful in case the Policy Package on the fortimanager is not aligned with the configuration present on the fortigate firewalls but also more complex in indexing the data as the responses are provided in json
